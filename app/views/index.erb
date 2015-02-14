@@ -1,0 +1,27 @@
+<!-- <div class="container">
+  <h1>Welcome to Sinatra!</h1>
+  <p>Hello, world!</p>
+
+  <form action="/users" method='get'>
+    <input type='text' name='org' placeholder='enter org'></input>
+    <input type='submit' value='submit'>
+  </form>
+</div>
+ -->
+
+ <html>
+  <head>
+  </head>
+  <body>
+    <p>
+      Well, hello there!
+    </p>
+    <p>
+      We're going to now talk to the GitHub API. Ready?
+      <a href="https://github.com/login/oauth/authorize?scope=user:email,read:org&client_id=<%= client_id %>">Click here</a> to begin!</a>
+    </p>
+    <p>
+      If that link doesn't work, remember to provide your own <a href="/v3/oauth/#web-application-flow">Client ID</a>!
+    </p>
+  </body>
+</html>
